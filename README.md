@@ -33,6 +33,7 @@ optional arguments:
 ## Examples
 ### SDHD, using the default settings
 `exonviz "NG_012337.3(NM_003002.4):c.274G>T" > SDHD.svg`
+
 ![Figure of SDH exons](examples/SDHD.svg)
 
 # DMD, only the coding regions, and a width of 1024
