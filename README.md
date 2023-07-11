@@ -45,20 +45,25 @@ Since DMD has many exons, we specify a maximum width for the figure
 
 ![Figure of DMD exons](examples/DMD.svg)
 
-# PLP1
+### PLP1
 Include the non coding regions in the figure for PLP1
 
 `exonviz "NM_000533.5" --non-coding > PLP1.svg`
 
 ![Figure of PLP1 exons](examples/PLP1.svg)
 
-# NF1
+### NF1
 Set the maximum width of the figure to the approximate size of the largest exon
 
 `exonviz "ENST00000358273.9" --non-coding --max-width 3300 > NF1-202.svg`
 
 ![Figure of NF1 exons](examples/NF1-202.svg)
 
-# ATXN1, show non coding, increase the maximum width and height of the picture, and
-# increase the gap between exons
-exonviz ENST00000436367.6 --non-coding --max-width 4000 --height 150 --gap 50 > ATXN1.svg
+# ATXN1
+Include the non coding exons, since most exons of ATXN1 are non coding. We
+limit the maximum width and increase the height of the picture. For clarity, we
+also increase the distance between the displayed exons.
+
+`exonviz ENST00000436367.6 --non-coding --max-width 4000 --height 150 --gap 50 > ATXN1.svg`
+
+![Figure of ATXN1 exons](examples/ATXN1.svg)
