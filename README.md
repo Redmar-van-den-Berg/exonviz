@@ -43,8 +43,11 @@ Since DMD has many exons, we specify a maximum width for the figure
 
 ![Figure of DMD exons](examples/DMD.svg)
 
-# PLP1, show non coding regions
-exonviz "NM_000533.5" --non-coding > PLP1.svg
+# PLP1
+Include the non coding regions in the figure for PLP1
+`exonviz "NM_000533.5" --non-coding > PLP1.svg`
+
+![Figure of PLP1 exons](examples/PLP1.svg)
 
 # NF1, show non coding regions
 exonviz "ENST00000358273.9" --non-coding > NF1-202.svg
