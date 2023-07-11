@@ -56,7 +56,7 @@ also increase the distance between the displayed exons:
 ![Figure of ATXN1 exons](examples/ATXN1.svg)
 
 ### PLP1
-Include the non coding regions and increase the hight and distance between the exons:
+Include the non coding regions and increase the height and distance between the exons:
 
 `exonviz "NM_000533.5" --non-coding --height 100 --gap 50 > PLP1.svg`
 
