@@ -31,6 +31,7 @@ setup(
     license="AGPL-3.0",
     description="Visualise exons and their reading frames",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Redmar van den Berg",
     author_email="RedmarvandenBerg@lumc.nl",
     url="https://github.com/redmar-van-den-berg/exonviz",
