@@ -58,7 +58,7 @@ also increase the distance between the displayed exons.
 ### PLP1
 Include the non coding regions in the figure for PLP1
 
-`exonviz "NM_000533.5" --non-coding --height 150 --gap 50 > PLP1.svg`
+`exonviz "NM_000533.5" --non-coding --height 100 --gap 50 > PLP1.svg`
 
 ![Figure of PLP1 exons](examples/PLP1.svg)
 
