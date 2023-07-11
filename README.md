@@ -31,9 +31,9 @@ optional arguments:
 ```
 
 ## Examples
-```bash
-# SDH, using the default settings
-exonviz "NG_012337.3(NM_003002.4):c.274G>T" > SDHD.svg
+### SDHD, using the default settings
+`exonviz "NG_012337.3(NM_003002.4):c.274G>T" > SDHD.svg`
+![Figure of SDH exons](examples/SDHD.svg)
 
 # DMD, only the coding regions, and a width of 1024
 exonviz "NM_004006.3:c.=" --max-width 1024 > DMD.svg
