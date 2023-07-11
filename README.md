@@ -65,6 +65,6 @@ Include the non coding regions in the figure for PLP1
 ### NF1
 Set the maximum width of the figure to the approximate size of the largest exon
 
-`exonviz "ENST00000358273.9" --non-coding --max-width 3300 > NF1-202.svg`
+`exonviz "ENST00000358273.9" --non-coding --max-width 3600 --height 75 --gap 20 > examples/NF1-202.svg`
 
 ![Figure of NF1 exons](examples/NF1-202.svg)
