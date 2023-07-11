@@ -31,13 +31,17 @@ optional arguments:
 ```
 
 ## Examples
-### SDHD, using the default settings
+### SDHD
+Using the default settings, which does not include non-coding regions of the exon.
 `exonviz "NG_012337.3(NM_003002.4):c.274G>T" > SDHD.svg`
 
 ![Figure of SDH exons](examples/SDHD.svg)
 
-# DMD, only the coding regions, and a width of 1024
-exonviz "NM_004006.3:c.=" --max-width 1024 > DMD.svg
+### DMD
+Since DMD has many exons, we specify a maximum width for the figure
+`exonviz "NM_004006.3:c.=" --max-width 1024 > DMD.svg`
+
+![Figure of DMD exons](examples/DMD.svg)
 
 # PLP1, show non coding regions
 exonviz "NM_000533.5" --non-coding > PLP1.svg
@@ -48,4 +52,3 @@ exonviz "ENST00000358273.9" --non-coding > NF1-202.svg
 # ATXN1, show non coding, increase the maximum width and height of the picture, and
 # increase the gap between exons
 exonviz ENST00000436367.6 --non-coding --max-width 4000 --height 150 --gap 50 > ATXN1.svg
-```
